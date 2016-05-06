@@ -4,6 +4,12 @@
   display: none;
   right: auto;
   bottom: auto;
+  
+  position: fixed;//by shulei
+  z-index: 100;
+  left: 0;
+  top:0;
+  margin-top: 300px!important;
 
   // Do NOT delete this line
   // or Affix (position: fixed) will not work in Google Chrome.
@@ -20,6 +26,12 @@
   &.affix {
     position: fixed;
     top: 0;
+    height: 100%!important;
+  }
+  &.affix-bottom {
+  	position: fixed;
+    top: 0!important;
+    height: 100%!important;
   }
 }
 
